@@ -7,7 +7,7 @@ const Hero = () => {
       {/* Background Image with Overlay */}
       <div 
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-        style={{ backgroundImage: `url(${import.meta.env.BASE_URL}/images/hero.png)` }}
+        style={{ backgroundImage: `url(${import.meta.env.BASE_URL}/images/hall.jpg)` }}
       >
         <div className="absolute inset-0 bg-primary/60"></div> {/* Dark overlay for text readability */}
       </div>
