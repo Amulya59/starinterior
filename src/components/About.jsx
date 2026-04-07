@@ -17,7 +17,7 @@ const About = () => {
             <div className="relative aspect-[4/5] w-full max-w-md mx-auto">
               <div className="absolute inset-0 bg-accent translate-x-4 translate-y-4 rounded-sm"></div>
               <img 
-                src={`${process.env.PUBLIC_URL}/images/bedroom.png`} 
+                src={`${import.meta.env.BASE_URL}/images/bedroom.png`} 
                 alt="Luxury Bedroom Design by Star Interiors" 
                 className="relative z-10 w-full h-full object-cover rounded-sm shadow-xl"
               />

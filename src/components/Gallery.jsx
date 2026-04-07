@@ -2,11 +2,11 @@ import React from 'react';
 import { motion } from 'framer-motion';
 
 const projects = [
-  { img: "/images/hero.png", title: "Living Room Interiors", colSpan: "md:col-span-2", rowSpan: "md:row-span-2" },
-  { img: "/images/kitchen.png", title: "Modular Kitchens", colSpan: "col-span-1", rowSpan: "row-span-1" },
-  { img: "/images/bedroom.png", title: "Bedroom Interiors", colSpan: "col-span-1", rowSpan: "row-span-1" },
-  { img: "/images/hero.png", title: "Office Interiors", colSpan: "col-span-1", rowSpan: "row-span-1" },
-  { img: "/images/kitchen.png", title: "Custom Furniture", colSpan: "col-span-1", rowSpan: "row-span-1" }
+  { img: `${import.meta.env.BASE_URL}/images/hero.png`, title: "Living Room Interiors", colSpan: "md:col-span-2", rowSpan: "md:row-span-2" },
+  { img: `${import.meta.env.BASE_URL}/images/kitchen.png`, title: "Modular Kitchens", colSpan: "col-span-1", rowSpan: "row-span-1" },
+  { img: `${import.meta.env.BASE_URL}/images/bedroom.png`, title: "Bedroom Interiors", colSpan: "col-span-1", rowSpan: "row-span-1" },
+  { img: `${import.meta.env.BASE_URL}/images/hero.png`, title: "Office Interiors", colSpan: "col-span-1", rowSpan: "row-span-1" },
+  { img: `${import.meta.env.BASE_URL}/images/kitchen.png`, title: "Custom Furniture", colSpan: "col-span-1", rowSpan: "row-span-1" }
 ];
 
 const Gallery = () => {

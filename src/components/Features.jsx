@@ -73,7 +73,7 @@ const Features = () => {
                 whileInView={{ opacity: 1, scale: 1 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.8 }}
-                src="/images/kitchen.png" 
+                src={`${import.meta.env.BASE_URL}/images/kitchen.png`}
                 alt="Modular Kitchen" 
                 className="w-full h-64 object-cover rounded-sm mt-12"
               />
@@ -82,7 +82,7 @@ const Features = () => {
                 whileInView={{ opacity: 1, scale: 1 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.8, delay: 0.2 }}
-                src="/images/bedroom.png" 
+                src={`${import.meta.env.BASE_URL}/images/bedroom.png`} 
                 alt="Living Room" 
                 className="w-full h-80 object-cover rounded-sm"
               />
