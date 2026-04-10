@@ -2,11 +2,11 @@ import React from 'react';
 import { motion } from 'framer-motion';
 
 const projects = [
-  { img: `${import.meta.env.BASE_URL}/images/hall.png`, title: "Living Room Interiors", colSpan: "md:col-span-2", rowSpan: "md:row-span-2" },
-  { img: `${import.meta.env.BASE_URL}/images/kit.png`, title: "Modular Kitchens", colSpan: "col-span-1", rowSpan: "row-span-1" },
-  { img: `${import.meta.env.BASE_URL}/images/rooom.png`, title: "Bedroom Interiors", colSpan: "col-span-1", rowSpan: "row-span-1" },
-  { img: `${import.meta.env.BASE_URL}/images/decor.png`, title: "Office Interiors", colSpan: "col-span-1", rowSpan: "row-span-1" },
-  { img: `${import.meta.env.BASE_URL}/images/room.png`, title: "Custom Furniture", colSpan: "col-span-1", rowSpan: "row-span-1" }
+  { img: `${import.meta.env.BASE_URL}/images/hall.jpg`, title: "Living Room Interiors", colSpan: "md:col-span-2", rowSpan: "md:row-span-2" },
+  { img: `${import.meta.env.BASE_URL}/images/kit.jpg`, title: "Modular Kitchens", colSpan: "col-span-1", rowSpan: "row-span-1" },
+  { img: `${import.meta.env.BASE_URL}/images/rooom.jpg`, title: "Bedroom Interiors", colSpan: "col-span-1", rowSpan: "row-span-1" },
+  { img: `${import.meta.env.BASE_URL}/images/decor.jpg`, title: "Office Interiors", colSpan: "col-span-1", rowSpan: "row-span-1" },
+  { img: `${import.meta.env.BASE_URL}/images/room.jpg`, title: "Custom Furniture", colSpan: "col-span-1", rowSpan: "row-span-1" }
 ];
 
 const Gallery = () => {
